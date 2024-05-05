@@ -1,0 +1,41 @@
+/* =======================================================
+* APP Name: OperationCaribbeanSummer
+* Updated: 2024/01/15
+* APP URL: https://javiramoslab.com/
+* Author: Javier Ramos Nistal (@JaviRamosLab) and Lazaro Ochoa
+* Version: 0.4.4 (beta)
+* License: CC-BY-SA and GPL
+======================================================== */
+
+/*** Marquee ***/
+.marquee {
+    display: flex;
+    gap: 1rem;
+    overflow: hidden;
+    background-color: var(--color-yellow);
+    padding: 0.6rem 1rem;
+    text-decoration: none;
+    color: var(--color-black);
+    border-bottom: 2px solid var(--color-black);
+}
+.marquee__items {
+    display: flex;
+    justify-content: space-around;
+    flex-shrink: 0;
+    gap: 1rem;
+    min-width: 100%;
+    font-size: 2rem;
+    font-weight: 800;
+    animation: marqueeAnimation 50s linear infinite;
+}
+.marquee:hover .marquee__items {
+    animation-play-state: paused;
+}
+@keyframes marqueeAnimation {
+    from {
+      translate: 0 0;
+    }
+    to {
+      translate: calc(-100% - 1rem) 0;
+    }
+}

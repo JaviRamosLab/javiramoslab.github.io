@@ -1,0 +1,20 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Ramos Nistal;Javier;
+ORG:designer, programer, webdev, translator, community manager, social media manager, marketing, contentcreator, wikipedia admin...
+EMAIL;TYPE=work:co2mm.esperanto@gmail.com
+URL;TYPE=linktree:https://linktr.ee/JaviRamosLab
+END:VCARD
+
+
+BEGIN:VCARD
+VERSION:2.1
+N:Ramos;Javier;;;
+FN:Javier Ramos
+TEL;CELL:+5358439494
+TEL;CELL:+53
+TEL;VOICE:76920127
+BDAY:1987-09-10
+PHOTO;ENCODING=BASE64;JPEG:...
+END:VCARD
+

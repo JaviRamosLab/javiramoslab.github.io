@@ -1,0 +1,410 @@
+/* =======================================================
+* APP Name: javiramoslab
+* Updated: 2024/01/15
+* APP URL: https://javiramoslab.com/
+* Author: Javier Ramos Nistal (@JaviRamosLab)
+* Version: 0.1 (beta)
+* License: CC-BY-SA and GPL
+======================================================== */
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500);
+
+body {
+  margin: 2%;
+  margin-top: 0%;
+  padding: 0;
+  font-size: 100%;
+  font-weight: 100;
+  font-family: 'Roboto', sans-serif;
+  background-color: black;
+  color: white;
+}
+
+#javiramoslabHeader {
+  font-size: clamp(0.5rem, 5vw, 6rem);
+  text-align: center;
+  background-color: #f8f5f3;
+  color: #000;
+  border: #000;
+  border-style: ridge;
+  font-variant: small-caps;
+  font-family: monospace;
+  /* text-transform: capitalize; */
+}
+
+.backgroundWhite {
+  background: white;
+  color: black;
+  padding: 1px;
+  padding-left: 4px;
+  padding-right: 4px;
+  border-radius: 5px;
+  font-size: small;
+}
+
+.redFont {
+color: red;
+}
+.greenFont {
+color: green;
+}
+
+/* countdown */
+#OpCaSuCountdown {
+  color: cyan;
+  /* font-size: 90px; */
+  font-size: 90px;
+  text-align: center;
+}
+#OpCaSuCountdownBox {
+  background:black;
+  /* padding:5px 15px; */
+  border:3px inset cyan;
+  /* width:900px; */
+  /* height: 100px; */
+  width: 90%;
+  text-align: center;
+}
+#OperationCaribbeanSummerAprilList {
+  color: aqua;
+  font-size: 2vw;
+}
+
+a {
+  cursor: url(/img/cursor/cuba.cur), pointer;
+}
+
+
+
+/* ++++++++++++++++++++++ */
+
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    /* font-size: large; */
+}
+h2 {
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  /* font-size: medium; */
+}
+
+
+/* btnRibbon */
+.btnRibbon {
+  border: none;
+  border-radius: 5px;
+  padding: 12px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #282A35;
+  color: white;
+  position: relative;
+}
+.ribbonBtn {
+  width: 60px;
+  font-size: 14px;
+  padding: 4px;
+  position: absolute;
+  right: -25px;
+  top: -12px;
+  text-align: center;
+  border-radius: 25px;
+  /* transform: rotate(20deg); */
+  /* background-color: #ff9800; */
+  color: white;
+}
+.ribbonBtnHOT {
+  background-color: #ff0000;
+}
+.ribbonBtnNEW {
+  background-color: #FFFF00;
+}
+.ribbonBtn10n {
+  background-color: #7FFFD4;
+  color: black;
+}
+.ribbonBtn10 {
+  background-color: #00FFFF;
+  color: black;
+}
+.ribbonBtn100 {
+  background-color: #00CED1;
+}
+.ribbonBtn1K {
+  background-color: #20B2AA;
+}
+.ribbonBtn10K {
+  background-color: #008080;
+}
+.ribbonBtn100K {
+  background-color: #0000FF;
+}
+.ribbonBtnSPECIAL {
+  background-color: #008000;
+  width: 70px;
+}
+/* END - btnRibbon */
+
+.btnEventProvince {
+  margin-left: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* code */
+code {
+  font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+  font-size: 90%;
+  /* box-sizing: border-box; */
+  padding-top: 2;
+  padding-right: 4;
+  padding-bottom: 2;
+  padding-left: 4;
+  color: rgb(199, 37, 78);
+  background-color: rgb(249, 242, 244);
+  border-radius: 4px;
+}
+
+.spanCenter {
+  text-align: center;
+  align-items: center;
+}
+
+/* Hover hr division */
+/* .hrLogoCubaSvg{fill:#10324E;} */
+.hrLogoCuba {
+  padding: 3px;
+}
+/* .hrLogoCubaSvg:hover {
+  fill: #ff0000;
+}
+.hrLogoCubaSvg2:hover {
+  fill: rgb(14, 224, 14);
+}
+#Cuba-logo_1:hover {
+  fill: rgb(241, 4, 202);
+}
+#Cuba-logo:hover {
+  fill: rgb(229, 233, 13);
+}
+.st0{fill:#10324E;} */
+
+
+/* Page Scroll Indicator */
+.scroll-indicator {
+  height: 5px;
+  width: calc(100% - 6em);
+  position: fixed;
+  /* top: 10px; */
+  bottom: 5px;
+  left: 3em;
+  border-radius: 3px;
+}
+.scroll-indicator .progress {
+  height: 100%;
+  width: 0;
+  border-radius: 3px;
+  background: linear-gradient(30deg, #4cd6f5, #16018d);
+  transition: width 0.1s;
+}
+
+.simpleNote {
+  font-family: monospace;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 2px 8px;
+}
+.warningNote {
+  background-color: #e3f193;
+  border-left: 10px solid #f1f436;
+  font-family: monospace;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 2px 8px;
+}
+.successNote {
+  background-color: #93f1aa;
+  border-left: 10px solid #008000;
+  font-family: monospace;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 2px 8px;
+}
+.dangerNote {
+  background-color: #ffdddd;
+  border-left: 10px solid #f44336;
+  font-family: monospace;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 2px 8px;
+}
+
+/* Footer - OpCaSu */
+.OpCaSuFooter {
+    /* position: absolute; */
+    bottom: 0;
+    width: 100%;
+}
+.OpCaSuFooter a {
+  text-decoration:none;
+  color: black;
+}
+.OpCaSuFooter a:hover {
+  font-weight:bold;
+  color: black;
+}
+
+/* BTN - Scroll Back To Top */
+#myBtnToTop {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  outline: none;
+  border: none;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 18px;
+}
+#myBtnToTop:hover {
+  background-color: #555555;
+}
+
+/* Full size BTN - style="width:100%" */
+.buttonFull {
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+/* Fino - test style */
+
+/* CGASnotes */
+.OpCaSuNotes {
+  font-size: smaller;
+  font-family: monospace;
+}
+
+
+/* Blockquote styles - CGASBlockquote */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic);
+.OpCaSuBlockquote {
+  font-size: 1.4em;
+  width:90%;
+  margin:20px auto;
+  font-family:Open Sans;
+  font-style:italic;
+  color: #555555;
+  padding:1.2em 30px 1.2em 75px;
+  line-height:1.6;
+  position: relative;
+  background:#EDEDED;
+  /* Border */
+  border-left: 15px solid #78C0A8;
+  border-right: 2px solid #78C0A8;
+  /* Box Shadow */
+  -moz-box-shadow: 2px 2px 15px #ccc;
+  -webkit-box-shadow: 2px 2px 15px #ccc;
+  box-shadow: 2px 2px 15px #ccc;
+}
+.OpCaSuBlockquoteB2 {
+  border-left: 15px solid #5a58e9;
+  border-right: 2px solid #5a58e9;
+}
+.OpCaSuBlockquoteB3 {
+  border-left: 15px solid #2db444;
+  border-right: 2px solid #2db444;
+  color: red;
+}
+.OpCaSuBlockquote::before{
+  font-family:Arial;
+  content: "\201C";
+  color:#78C0A8;
+  font-size:4em;
+  position: absolute;
+  left: 10px;
+  top:-10px;
+}
+.OpCaSuBlockquote::after{
+  content: '';
+}
+.blockquoteAutor {
+  display:block;
+  color:#333333;
+  font-style: normal;
+  font-weight: bold;
+  margin-top:1em;
+}
+
+/* info Card */
+.OpCaSuInfoCard {
+  display:block;
+  background: #fff;
+  padding: 15px 20px 15px 45px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  position: relative;
+  -moz-box-shadow: 2px 2px 15px #ccc;
+  -webkit-box-shadow: 2px 2px 15px #ccc;
+  box-shadow: 2px 2px 15px #ccc;
+}
+
+.codeStyle {
+  font-family: monospace;
+}
+
+.containerAlignCenter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+/* FAQ - style */
+.backgroundBlack {
+    background: black;
+    color: white;
+    padding: 2px;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+.webEvent {
+  background-color: green;
+  color: aqua;
+  border-radius: 5px;
+  padding: 2px;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+.LinksVideo {
+  width: 80px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.wikipediaEspejoSpanStyle {
+  padding: 10px;
+  margin: 4%;
+  border-color: red;
+  border-radius: 10px;
+  background-color: rgb(184, 199, 209);
+}
+
+strong {
+  font-weight: bold;
+  font-size: 110%;
+}
+

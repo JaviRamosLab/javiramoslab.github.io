@@ -42,12 +42,16 @@ body {
   font-size: small;
 }
 
+<<<<<<< Updated upstream
 .redFont {
 color: red;
 }
 .greenFont {
 color: green;
 }
+=======
+
+>>>>>>> Stashed changes
 
 /* countdown */
 #OpCaSuCountdown {
@@ -74,11 +78,38 @@ a {
   cursor: url(/img/cursor/cuba.cur), pointer;
 }
 
+<<<<<<< Updated upstream
+=======
+/* info Card */
+.CapablancaInfoCard {
+  display:block;
+  background: #a1a1a1;
+  padding: 15px 20px 15px 45px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  position: relative;
+  -moz-box-shadow: 2px 2px 15px #ccc;
+  -webkit-box-shadow: 2px 2px 15px #ccc;
+  box-shadow: 2px 2px 15px #ccc;
+}
+
+.redFont {
+color: red;
+}
+.greenFont {
+color: green;
+}
+
+>>>>>>> Stashed changes
 
 
 /* ++++++++++++++++++++++ */
 
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
 h1 {
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
